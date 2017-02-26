@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "AutoChatter",
+  "description": "This extension chats automatically on your behalf on Facebook. Just open the messages page of your Facebook and find the Autochat button. Enjoy!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background":{
+  "scripts":["background.js"]
+  },
+  "icons":{
+  "64":"icon.png"
+  },
+    "content_scripts": [
+	{
+	"css":["mycss.css"],
+    "matches":["https://www.facebook.com/messages/t/*", "https://mbasic.facebook.com/*" ],
+	"js":["jquery.min.js","myscript.js"]
+  }
+  ]
+}
