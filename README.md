@@ -9,6 +9,6 @@ Step 2 - Check the Developer mode and click load unpacked extensions
 
 Step 3 - Download the folder including manifest.json file and show it the path where the extension is downloaded.
 
-Step 4 - The extension is now installed and you should see "AutoChat using AutoChatter" icon present on www.facebook.com/messages/t page
+Step 4 - The extension is now installed and you should see "AutoChat using AutoChatter" icon present on www.facebook.com/messages/t page.
 
 I don't intend to and will never extract your personal chats/data etc using this extension. Even the training data used to train the bot is created by my own. So you can relax and intall this extension without worrying about privacy issues.
